@@ -1,0 +1,74 @@
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color:rgb(65, 67, 70);
+
+    max-width: 850px;
+    max-height: 1500px;
+    margin: auto; margin-top: 2em;
+
+    display: flex;
+
+    border: red solid 2px;
+}
+
+/* Left Column */
+
+.information {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    position: sticky; top: 0px;  
+    width: 400px; 
+    height: 600px;
+}
+
+img {
+    width: 300px; height: 200px;
+}
+
+.left_content {
+    margin-left: 0.5em;
+}
+
+.linkedin_link:visited {
+    color: rgb(65, 67, 70);
+}
+
+.linkedin1_link:link {
+    color: rgb(65, 67, 70);
+}
+
+.fa-linkedin-square {
+    color: var(--primiary-light);
+    transition: transform 0.3s ease-in-out;
+}
+.fa-linkedin-square:hover {
+    transform: rotate(360deg) scale(1.2);
+}
+
+.github_link:link {
+    color:rgb(65, 67, 70);
+}
+.github_link:visited {
+    color: rgb(65, 67, 70);
+}
+
+.fa-github {
+    color: var(--primiary-light);
+    transition: transform 0.3s ease-in-out;
+}
+.fa-github:hover {
+    transform: rotate(360deg) scale(1.2);
+}
+
+
+/* Right Column */
+.content {
+    border:rgb(74, 76, 78) solid 1px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    width: 100%;
+
+    height: 1500px;
+}
